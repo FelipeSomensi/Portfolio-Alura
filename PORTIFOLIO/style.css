@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    /* Tira os espaçoes padrões de um arquivo HTML */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; /* define que o conteudo da pagina ocupa 100% da pagina */
+    box-sizing:border-box; /* os elementos não saem do limite */
+    background-color: black;
+    color: aliceblue;
+}
+/* esse "." é porque isso é uma classe */
+.titulo-destaque {
+    color: #22D4FD;
+}
+.apresentacao{
+    margin: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.apresentacao__conteudo__titulo {
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+
+    background-color: #22D4FD;
+    width: 280px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 16px;
+    padding: 21.5px 0;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+span{
+    /*testar isso depois */
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;
+}
